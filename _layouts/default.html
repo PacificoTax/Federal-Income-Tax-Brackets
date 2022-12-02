@@ -8,6 +8,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/table.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -32,6 +33,12 @@
       <section>
 
       {{ content }}
+        
+      <div>
+        <div class="table-tabs-wrapper" id="table-tabs-wrapper">
+          <div class="header-tabs" id="header-tabs"></div>
+        </div>
+      </div>
 
       </section>
       <footer>
@@ -41,5 +48,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="/assets/js/table.js"></script>
   </body>
 </html>
