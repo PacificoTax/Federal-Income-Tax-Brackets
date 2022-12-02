@@ -161,7 +161,7 @@ window.onload = async () => {
       federalIncomeTableEl.innerHTML += createTableBase(
         "qualifiedDividends",
         year,
-        "Qualified Dividends",
+        "Qualified Dividends and Capital Gains",
         [
           "",
           "For Unmarried Individuals, Taxable Income Over",
