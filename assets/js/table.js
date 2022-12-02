@@ -3,7 +3,7 @@ window.onload = async () => {
   const bracketFileName = "brackets-{year}.json";
   const qualifiedDividendsFileName = "qualified-dividends-{year}.json";
   const standardDeductionsFileName = "standard-deductions-{year}.json";
-  const tablesPath = "./assets/tables/";
+  const tablesPath = "./tax-rate-tables/";
   const tabsEl = document.getElementById("header-tabs");
   const tablesEl = document.getElementById("table-tabs-wrapper");
   let isActive = true;
